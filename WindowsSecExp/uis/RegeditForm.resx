@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="uitbxCrtKey.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uitbxCrtKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 167</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uitbxCrtKey.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="uitbxCrtKey.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uitbxCrtKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="uitbxCrtKey.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;uitbxCrtKey.Name" xml:space="preserve">
+    <value>uitbxCrtKey</value>
+  </data>
+  <data name="&gt;&gt;uitbxCrtKey.Type" xml:space="preserve">
+    <value>Sunny.UI.UITextBox, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uitbxCrtKey.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uitbxCrtKey.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="uidgvReg.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column1.HeaderText" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Column1.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column2.HeaderText" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>值类型</value>
+  </data>
+  <data name="Column3.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>值数据</value>
+  </data>
+  <data name="Column4.Width" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="uidgvReg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uidgvReg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 54</value>
+  </data>
+  <data name="uidgvReg.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="uidgvReg.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="uidgvReg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 402</value>
+  </data>
+  <data name="uidgvReg.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;uidgvReg.Name" xml:space="preserve">
+    <value>uidgvReg</value>
+  </data>
+  <data name="&gt;&gt;uidgvReg.Type" xml:space="preserve">
+    <value>Sunny.UI.UIDataGridView, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uidgvReg.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uidgvReg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="uibtnRefrh.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uibtnRefrh.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 462</value>
+  </data>
+  <data name="uibtnRefrh.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uibtnRefrh.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="uibtnRefrh.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="uibtnRefrh.Text" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="&gt;&gt;uibtnRefrh.Name" xml:space="preserve">
+    <value>uibtnRefrh</value>
+  </data>
+  <data name="&gt;&gt;uibtnRefrh.Type" xml:space="preserve">
+    <value>Sunny.UI.UIButton, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uibtnRefrh.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uibtnRefrh.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="uibtnSetVal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uibtnSetVal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 280</value>
+  </data>
+  <data name="uibtnSetVal.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uibtnSetVal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="uibtnSetVal.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="uibtnSetVal.Text" xml:space="preserve">
+    <value>设置键值</value>
+  </data>
+  <data name="&gt;&gt;uibtnSetVal.Name" xml:space="preserve">
+    <value>uibtnSetVal</value>
+  </data>
+  <data name="&gt;&gt;uibtnSetVal.Type" xml:space="preserve">
+    <value>Sunny.UI.UIButton, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uibtnSetVal.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uibtnSetVal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="uibtnCrtKey.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uibtnCrtKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 217</value>
+  </data>
+  <data name="uibtnCrtKey.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uibtnCrtKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="uibtnCrtKey.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="uibtnCrtKey.Text" xml:space="preserve">
+    <value>创建子键</value>
+  </data>
+  <data name="&gt;&gt;uibtnCrtKey.Name" xml:space="preserve">
+    <value>uibtnCrtKey</value>
+  </data>
+  <data name="&gt;&gt;uibtnCrtKey.Type" xml:space="preserve">
+    <value>Sunny.UI.UIButton, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uibtnCrtKey.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uibtnCrtKey.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="uibtnDelChs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uibtnDelChs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>733, 343</value>
+  </data>
+  <data name="uibtnDelChs.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uibtnDelChs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 35</value>
+  </data>
+  <data name="uibtnDelChs.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="uibtnDelChs.Text" xml:space="preserve">
+    <value>删除选中</value>
+  </data>
+  <data name="&gt;&gt;uibtnDelChs.Name" xml:space="preserve">
+    <value>uibtnDelChs</value>
+  </data>
+  <data name="&gt;&gt;uibtnDelChs.Type" xml:space="preserve">
+    <value>Sunny.UI.UIButton, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uibtnDelChs.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uibtnDelChs.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="uibtnBack.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uibtnBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 13</value>
+  </data>
+  <data name="uibtnBack.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uibtnBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 35</value>
+  </data>
+  <data name="uibtnBack.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="uibtnBack.Text" xml:space="preserve">
+    <value>返回上一级</value>
+  </data>
+  <data name="&gt;&gt;uibtnBack.Name" xml:space="preserve">
+    <value>uibtnBack</value>
+  </data>
+  <data name="&gt;&gt;uibtnBack.Type" xml:space="preserve">
+    <value>Sunny.UI.UIButton, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uibtnBack.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uibtnBack.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="uilblPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uilblPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="uilblPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>539, 23</value>
+  </data>
+  <data name="uilblPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="uilblPath.Text" xml:space="preserve">
+    <value>当前路径: HKEY_LOCAL_MACHINE\SOFTWARE\Test</value>
+  </data>
+  <data name="uilblPath.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;uilblPath.Name" xml:space="preserve">
+    <value>uilblPath</value>
+  </data>
+  <data name="&gt;&gt;uilblPath.Type" xml:space="preserve">
+    <value>Sunny.UI.UILabel, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uilblPath.Parent" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uilblPath.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="uiPanel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 12pt</value>
+  </data>
+  <data name="uiPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="uiPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="uiPanel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1, 1</value>
+  </data>
+  <data name="uiPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>872, 509</value>
+  </data>
+  <data name="uiPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="uiPanel.Text" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="&gt;&gt;uiPanel.Name" xml:space="preserve">
+    <value>uiPanel</value>
+  </data>
+  <data name="&gt;&gt;uiPanel.Type" xml:space="preserve">
+    <value>Sunny.UI.UIPanel, SunnyUI, Version=3.0.8.0, Culture=neutral, PublicKeyToken=27d7d2e821d97aeb</value>
+  </data>
+  <data name="&gt;&gt;uiPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;uiPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>872, 509</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>RegeditForm</value>
+  </data>
+  <data name="&gt;&gt;Column1.Name" xml:space="preserve">
+    <value>Column1</value>
+  </data>
+  <data name="&gt;&gt;Column1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
+    <value>Column2</value>
+  </data>
+  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>RegeditForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

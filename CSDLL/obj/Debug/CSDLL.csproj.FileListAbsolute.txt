@@ -1,0 +1,6 @@
+D:\Study\ProgramStudy\C#Study\WindowsSecExp\CSDLL\bin\Debug\CSDLL.dll
+D:\Study\ProgramStudy\C#Study\WindowsSecExp\CSDLL\bin\Debug\CSDLL.pdb
+D:\Study\ProgramStudy\C#Study\WindowsSecExp\CSDLL\obj\Debug\CSDLL.csproj.CoreCompileInputs.cache
+D:\Study\ProgramStudy\C#Study\WindowsSecExp\CSDLL\obj\Debug\CSDLL.dll
+D:\Study\ProgramStudy\C#Study\WindowsSecExp\CSDLL\obj\Debug\CSDLL.pdb
+D:\Study\ProgramStudy\C#Study\WindowsSecExp\CSDLL\obj\Debug\CSDLL.csprojAssemblyReference.cache
