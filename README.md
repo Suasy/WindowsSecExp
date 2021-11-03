@@ -1,5 +1,5 @@
 # WindowsSecExp
-The second experiment of windows.
+The second experiment of Windows.
 
 # 1. 基础功能
 
