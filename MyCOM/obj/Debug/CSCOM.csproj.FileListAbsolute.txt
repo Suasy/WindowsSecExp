@@ -1,6 +1,0 @@
-D:\Study\ProgramStudy\C#Study\WindowsSecExp\MyCOM\obj\Debug\CSCOM.csproj.CoreCompileInputs.cache
-D:\Study\ProgramStudy\C#Study\WindowsSecExp\MyCOM\bin\Debug\CSCOM.dll
-D:\Study\ProgramStudy\C#Study\WindowsSecExp\MyCOM\bin\Debug\CSCOM.pdb
-D:\Study\ProgramStudy\C#Study\WindowsSecExp\MyCOM\bin\Debug\CSCOM.tlb
-D:\Study\ProgramStudy\C#Study\WindowsSecExp\MyCOM\obj\Debug\CSCOM.dll
-D:\Study\ProgramStudy\C#Study\WindowsSecExp\MyCOM\obj\Debug\CSCOM.pdb
